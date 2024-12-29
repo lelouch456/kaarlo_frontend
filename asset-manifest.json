@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/kaarlo_frontend/static/css/main.1f708b40.css",
-    "main.js": "/kaarlo_frontend/static/js/main.e5499619.js",
+    "main.js": "/kaarlo_frontend/static/js/main.f868a65a.js",
     "static/js/453.419a5d54.chunk.js": "/kaarlo_frontend/static/js/453.419a5d54.chunk.js",
     "static/media/placeholder.jpg": "/kaarlo_frontend/static/media/placeholder.1b123de84a166fa1375d.jpg",
     "index.html": "/kaarlo_frontend/index.html",
     "main.1f708b40.css.map": "/kaarlo_frontend/static/css/main.1f708b40.css.map",
-    "main.e5499619.js.map": "/kaarlo_frontend/static/js/main.e5499619.js.map",
+    "main.f868a65a.js.map": "/kaarlo_frontend/static/js/main.f868a65a.js.map",
     "453.419a5d54.chunk.js.map": "/kaarlo_frontend/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f708b40.css",
-    "static/js/main.e5499619.js"
+    "static/js/main.f868a65a.js"
   ]
 }
