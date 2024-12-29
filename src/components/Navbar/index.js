@@ -41,7 +41,7 @@ const Navbar = () => {
 
               {/* Navigation Links */}
               <div className="flex items-center space-x-3">
-                <NavLink href="/" isActive>
+                <NavLink href="#/" isActive>
                   Home
                 </NavLink>
                 <NavLink href="#/about">About</NavLink>
@@ -92,7 +92,7 @@ const Navbar = () => {
               </div>
 
               {/* Mobile Navigation Links */}
-              <MobileNavLink href="/" isActive>
+              <MobileNavLink href="#/" isActive>
                 Home
               </MobileNavLink>
               <MobileNavLink href="#/about">About</MobileNavLink>
