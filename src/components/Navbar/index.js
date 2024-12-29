@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <a href="/" className="flex items-center space-x-3 group">
+              <a href="#/kaarlo_frontend/" className="flex items-center space-x-3 group">
                 <div className="w-12 h-12 bg-white rounded-xl shadow-lg group-hover:rotate-6 transition-transform duration-300 relative">
                   <div className="w-full h-full bg-gradient-to-br from-red-500 to-red-700 rounded-xl transform -translate-x-1 -translate-y-1 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300 flex items-center justify-center">
                     <div className="absolute inset-0 bg-red-400 rounded-xl opacity-0 group-hover:opacity-50 blur-md transition-opacity duration-300"></div>
