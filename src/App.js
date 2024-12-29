@@ -1,6 +1,7 @@
 // src/App.js
 
 import React from "react";
+import { HashRouter } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";  // Make sure this path is correct
 import Home from "./pages";
@@ -13,7 +14,7 @@ import { AuthProvider } from "./context/AuthContext";
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <HashRouter>
         <Navbar />
         
         <Routes>
@@ -24,7 +25,7 @@ function App() {
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/trainingDevelopment" element={<CourseTabs/>}/>
         </Routes>
-      </Router>
+      </HashRouter>
     </AuthProvider>
   );
 }
