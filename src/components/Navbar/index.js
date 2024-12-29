@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Search, Bell } from 'lucide-react';
-
+import logo from './final-09.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +17,7 @@ const Navbar = () => {
                   <div className="w-full h-full bg-gradient-to-br from-red-500 to-red-700 rounded-xl transform -translate-x-1 -translate-y-1 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300 flex items-center justify-center">
                     <div className="absolute inset-0 bg-red-400 rounded-xl opacity-0 group-hover:opacity-50 blur-md transition-opacity duration-300"></div>
                     <img
-                      src="./kaarlo_frontend/final-09.png"
+                      src={logo}
                       alt="Logo"
                       className="w-8 h-8 transition-transform duration-300 group-hover:scale-110"
                     />
