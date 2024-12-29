@@ -15,6 +15,7 @@ function App() {
   return (
     <AuthProvider>
       <HashRouter>
+        
         <Navbar />
         
         <Routes>
@@ -25,6 +26,7 @@ function App() {
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/trainingDevelopment" element={<CourseTabs/>}/>
         </Routes>
+        
       </HashRouter>
     </AuthProvider>
   );

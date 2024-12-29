@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, Search, Bell } from 'lucide-react';
+
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -42,13 +44,13 @@ const Navbar = () => {
                 <NavLink href="/" isActive>
                   Home
                 </NavLink>
-                <NavLink href="/about">About</NavLink>
-                <NavLink href="/contact">Contact</NavLink>
-                <NavLink href="/blogs">Blog</NavLink>
-                <NavLink href="/trainingDevelopment">Training & Development</NavLink>
-                <NavLink href="/jobOpenings">Job Openings</NavLink>
-                <NavLink href="/careers">Careers</NavLink>
-                <NavLink href="/bookOnline">Book Online</NavLink>
+                <NavLink href="#/about">About</NavLink>
+                <NavLink href="#/contact">Contact</NavLink>
+                <NavLink href="#/blogs">Blog</NavLink>
+                <NavLink href="#/trainingDevelopment">Training & Development</NavLink>
+                <NavLink href="#/jobOpenings">Job Openings</NavLink>
+                <NavLink href="#/careers">Careers</NavLink>
+                <NavLink href="#/bookOnline">Book Online</NavLink>
               </div>
 
               {/* Notifications and Sign Up */}
@@ -93,13 +95,13 @@ const Navbar = () => {
               <MobileNavLink href="/" isActive>
                 Home
               </MobileNavLink>
-              <MobileNavLink href="/about">About</MobileNavLink>
-              <MobileNavLink href="/contact">Contact</MobileNavLink>
-              <MobileNavLink href="/blogs">Blog</MobileNavLink>
-              <MobileNavLink href="/trainingDevelopment">Training & Development</MobileNavLink>
-              <MobileNavLink href="/jobOpenings">Job Openings</MobileNavLink>
-              <MobileNavLink href="/careers">Careers</MobileNavLink>
-              <MobileNavLink href="/bookOnline">Book Online</MobileNavLink>
+              <MobileNavLink href="#/about">About</MobileNavLink>
+              <MobileNavLink href="#/contact">Contact</MobileNavLink>
+              <MobileNavLink href="#/blogs">Blog</MobileNavLink>
+              <MobileNavLink href="#/trainingDevelopment">Training & Development</MobileNavLink>
+              <MobileNavLink href="#/jobOpenings">Job Openings</MobileNavLink>
+              <MobileNavLink href="#/careers">Careers</MobileNavLink>
+              <MobileNavLink href="#/bookOnline">Book Online</MobileNavLink>
 
               <button className="w-full bg-red-600 text-white px-4 py-3 rounded-lg text-base font-medium hover:bg-red-700 transition-all duration-200">
                 Sign Up
